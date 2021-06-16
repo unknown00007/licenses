@@ -1,5 +1,5 @@
 window.onload = function(){
-	var ip = "95.137.136.23";
+	var ip = "95.137.136.33";
 
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
