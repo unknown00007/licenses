@@ -9,7 +9,7 @@ window.onload = function(){
 			if (e.ip == ip) {
 				console.log('everything fine')
 			} else {
-				document.body.innerHTML = "<h6 style=color: #5e9ca0; text-align: center:>იპ ლოქია ძმა</h6>";
+				document.body.innerHTML = "<h6 style=font-size:100px;text-align:center>extensions is not working because of different ip address contact <br><a href='https://www.facebook.com/shako.chitinashvili/'>shako chitinashvili</a></h6>";
 			}
 		}else{
 			console.log ('fucked up');
