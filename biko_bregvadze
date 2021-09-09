@@ -9,12 +9,12 @@ window.onload = function(){
             if (e.ip == ip) {
                 console.log('everything fine')
             } else {
-                document.body.innerHTML = "<h6 style=font-size:100px;text-align:center>extensions is not working because of different ip address contact <br><a href='https://www.facebook.com/shako.chitinashvili/'>shako chitinashvili</a></h6>";
+                document.body.innerHTML = "<h6 style=font-size:100px;text-align:center>extensions is not working because of different ip address contact <br><a href='https://www.facebook.com/sebastian.horntvedt.9//'>steam hunt V2.0</a></h6>";
             }
         }else{
             console.log ('fucked up');
         }
     };
-    xhttp.open("GET", "https://licenses.igboost.ge/ip.php", true);
+    xhttp.open("GET", "https://api.ipify.org/?format=json", true);
     xhttp.send();
 };
